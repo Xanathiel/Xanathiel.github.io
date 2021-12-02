@@ -1,0 +1,123 @@
+/*--Alexander Price Personal Profile 3/12/2021 --*/
+html {
+  font-size: 18px;
+
+  font-family: monospace;
+  background-image: url(banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+table, th, td{
+  background-color: beige;
+  border: 1px black solid;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-family: serif;
+
+}
+
+
+
+ul {
+  background: grey;
+  padding: 10px;
+  display: flex;
+  height: auto;
+  width: auto;
+}
+body {
+  background-color: beige;
+  height: auto;
+  border: 10px solid black;
+
+}
+
+li {
+  display: flex;
+  align-content: center;
+  border: 2px solid black;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  margin: auto;
+  width: 145px;
+  height: 50px;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: darkred;
+}
+
+a:hover {
+  background: skyblue;
+  color: green;
+}
+
+a:active {
+  background: yellow;
+  color: black;
+}
+
+
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+label{
+  display: inline-block;
+  padding: 25px;
+}
+
+.col1{
+  margin: 20px;
+  display: flex;
+  background-color: beige;
+  width: 95%;
+  border: 10px solid black;
+
+
+}
+
+.col2{
+  margin: 20px;
+  display: block;
+  background-color: beige;
+  width: 95%;
+  border: 10px solid black;
+  text-align: center;
+}
+.contact{
+  margin: 20px;
+  display: block;
+  background-color: beige;
+  width: 65%;
+  border: 10px solid black;
+}
+@media screen and (max-width: 1085px){
+  table, th, td{
+    background-color: beige;
+    border: 2px black solid;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    font-family: serif;
+
+  }
+
+  .col1, .col2{
+      width: 80%;
+  }
+}
